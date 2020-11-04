@@ -13,7 +13,7 @@ class MemeGenerator extends Component {
     this.handleSubmit = this.handleSubmit.bind(this)
   }
   componentDidMount() {
-    fetch("http://api.imgflip.com/get_memes")
+    fetch("https://cors-anywhere.herokuapp.com/http://api.imgflip.com/get_memes")
       .then((res) => res.json())
       .then((res) => {
         const { memes } = res.data;
