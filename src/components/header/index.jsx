@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <header>
-            <img src="http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png" alt="Problem?"/>
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" alt="Problem?"/>
             <p>Meme Generator</p>
         </header>
     )
