@@ -30,7 +30,7 @@ header > p {
 
 .meme {
     position: relative;
-    width: 90%;
+    width: 27%;
     margin: auto;
 }
 
@@ -72,7 +72,7 @@ header > p {
 }
 
 .meme-form {
-    width: 90%;
+    width: 60%;
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
